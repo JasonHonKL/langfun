@@ -162,3 +162,6 @@ class OpenAICompatible(rest.REST):
 
         ),
     )
+
+  def _score(self):
+    return super()._score()
